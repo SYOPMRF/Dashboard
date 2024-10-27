@@ -30,18 +30,13 @@
         "source": "/js/sb-admin-2.min.js",
         "destination": "./js/sb-admin-2.min.js"
  
-      },
-      {
-        "source": "/charts.html",
-        "destination": "/charts.html"
       }
-
     ],
     "redirects": [
     {
-      "source": "/charts.html",
+      "source": "/index.html",
       "destination": "/charts.html",
-      "permanent": false
+      "permanent": true
     }
   ]
   }
