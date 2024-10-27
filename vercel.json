@@ -31,13 +31,6 @@
         "destination": "./js/sb-admin-2.min.js"
  
       }
-    ],
-    "redirects": [
-    {
-      "source": "/index.html",
-      "destination": "/charts.html",
-      "permanent": true
-    }
-  ]
+    ]
   }
   
