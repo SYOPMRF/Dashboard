@@ -35,7 +35,7 @@
     "redirects": [
     {
       "source": "/charts.html",
-      "destination": "/charts.html",
+      "destination": "/index.html",
       "permanent": true
     }
   ]
