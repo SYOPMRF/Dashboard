@@ -1,36 +1,40 @@
 {
-    "rewrites": [
-      {
-        "source": "/vendor/jquery/jquery.min.js",
-        "destination": "https://code.jquery.com/jquery-3.6.0.min.js"
-      },
-      {
-        "source": "/vendor/bootstrap/js/bootstrap.bundle.min.js",
-        "destination": "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
-      },
-      {
-        "source": "/vendor/jquery-easing/jquery.easing.min.js",
-        "destination": "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
-      },
-      {
-        "source": "/vendor/chart.js/Chart.min.js",
-        "destination": "https://cdn.jsdelivr.net/npm/chart.js"
-      },
-      {
-        "source": "/js/demo/chart-area-demo.js",
-        "destination": "./js/demo/chart-area-demo.js" 
-
-      },
-      {
-        "source": "/js/demo/chart-pie-demo.js",
-        "destination": "./js/demo/chart-pie-demo.js"
-
-      },
-      {
-        "source": "/js/sb-admin-2.min.js",
-        "destination": "./js/sb-admin-2.min.js"
- 
-      }
-    ]
-  }
-  
+  "rewrites": [
+    {
+      "source": "/vendor/jquery/jquery.min.js",
+      "destination": "https://code.jquery.com/jquery-3.6.0.min.js"
+    },
+    {
+      "source": "/vendor/bootstrap/js/bootstrap.bundle.min.js",
+      "destination": "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+    },
+    {
+      "source": "/vendor/jquery-easing/jquery.easing.min.js",
+      "destination": "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
+    },
+    {
+      "source": "/vendor/chart.js/Chart.min.js",
+      "destination": "https://cdn.jsdelivr.net/npm/chart.js"
+    },
+    {
+      "source": "/js/demo/chart-area-demo.js",
+      "destination": "./js/demo/chart-area-demo.js"
+    },
+    {
+      "source": "/js/demo/chart-pie-demo.js",
+      "destination": "./js/demo/chart-pie-demo.js"
+    },
+    {
+      "source": "/js/sb-admin-2.min.js",
+      "destination": "./js/sb-admin-2.min.js"
+    },
+    {
+      "source": "/charts",
+      "destination": "/charts.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
