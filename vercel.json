@@ -17,24 +17,24 @@
         "destination": "https://cdn.jsdelivr.net/npm/chart.js"
       },
       {
-        "source": "/js/demo/chart-area-demo.js",
-        "destination": "./js/demo/chart-area-demo.js" 
+        "source": "js/demo/chart-area-demo.js",
+        "destination": "js/demo/chart-area-demo.js" 
 
       },
       {
-        "source": "/js/demo/chart-pie-demo.js",
-        "destination": "./js/demo/chart-pie-demo.js"
+        "source": "js/demo/chart-pie-demo.js",
+        "destination": "js/demo/chart-pie-demo.js"
 
       },
       {
-        "source": "/js/sb-admin-2.min.js",
-        "destination": "./js/sb-admin-2.min.js"
+        "source": "js/sb-admin-2.min.js",
+        "destination": "js/sb-admin-2.min.js"
  
       }
     ],
     "redirects": [
     {
-      "source": "/charts.html",
+      "source": "/index.html",
       "destination": "/charts.html",
       "permanent": true
     }
